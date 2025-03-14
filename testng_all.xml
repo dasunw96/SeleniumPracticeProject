@@ -7,7 +7,7 @@
     <test thread-count="8" name="Test_All">
         <parameter name="browser" value="Chrome"></parameter>
         <classes>
-            <!-- <class name="com.automationpractice.testcases.IndexPageTest" />
+            <class name="com.automationpractice.testcases.IndexPageTest" />
              <class name="com.automationpractice.testcases.LinkPageTest" />
     <class name="com.automationpractice.testcases.TextBoxPageTest" />
              <class name="com.automationpractice.testcases.ButtonPageTest" />
@@ -20,7 +20,7 @@
             <class name="com.automationpractice.testcases.MouseActionPageTest" />
             <class name="com.automationpractice.testcases.KeyboardActionPageTest" />
             <class name="com.automationpractice.testcases.FilePageTest" />
-            <class name="com.automationpractice.testcases.WaitPageTest" />-->
+            <class name="com.automationpractice.testcases.WaitPageTest" />
             <class name="com.automationpractice.testcases.ScreenshotTest" />
 </classes>
 </test> <!-- Test -->
