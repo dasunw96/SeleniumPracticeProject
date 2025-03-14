@@ -47,7 +47,9 @@ public class BaseClass {
     public static void launchWeb(String browserName){
 
         if (browserName.equalsIgnoreCase("Chrome")) {
-            driver.set(new ChromeDriver());
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--headless");
+            driver.set(new ChromeDriver(chromeOptions));
         } else if (browserName.equalsIgnoreCase("FireFox")) {
             driver.set(new FirefoxDriver());
         } else if (browserName.equalsIgnoreCase("IE")) {
