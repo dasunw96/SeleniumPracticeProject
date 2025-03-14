@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.automationpractice.utility.ListenerClass"></listener>
+    </listeners>
+    <test thread-count="8" name="Test_All">
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <!-- <class name="com.automationpractice.testcases.IndexPageTest" />
+             <class name="com.automationpractice.testcases.LinkPageTest" />
+    <class name="com.automationpractice.testcases.TextBoxPageTest" />
+             <class name="com.automationpractice.testcases.ButtonPageTest" />
+             <class name="com.automationpractice.testcases.DropDownPageTest" />
+            <class name="com.automationpractice.testcases.RadioButtonPageTest" />
+            <class name="com.automationpractice.testcases.CheckBoxPageTest" />
+            <class name="com.automationpractice.testcases.AlertPageTest" />
+            <class name="com.automationpractice.testcases.WindowPageTest" />
+            <class name="com.automationpractice.testcases.FramePageTest" />
+            <class name="com.automationpractice.testcases.MouseActionPageTest" />
+            <class name="com.automationpractice.testcases.KeyboardActionPageTest" />
+            <class name="com.automationpractice.testcases.FilePageTest" />
+            <class name="com.automationpractice.testcases.WaitPageTest" />-->
+            <class name="com.automationpractice.testcases.ScreenshotTest" />
+</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
